@@ -37,7 +37,7 @@ module.exports = function(app) {
 
            }
 
-           if (difference <= 40) {
+           if (difference <= bestFriend.difference) {
              // statement
              bestFriend.name = currentFriends.name;
              bestFriend.photo = currentFriends.photo;
